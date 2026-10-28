@@ -1,13 +1,12 @@
-import type { Metadata } from "next";
+import { type Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter",
-  description:
-    "Next.js App Router starter with Vitest, Storybook visual regression and Playwright e2e tests.",
+  title: "Distance Darts",
+  description: "Distance Darts baseline",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>

@@ -1,7 +1,5 @@
 # Next.js Starter
 
-> **Starting a new Project from this template?** Follow [`docs/new-project.md`](./docs/new-project.md).
-
 A starting point for new web projects: Next.js (App Router), TypeScript and CSS Modules, with three layers of automated tests already wired up. See [`docs/agents/testing.md`](./docs/agents/testing.md) for what each kind of test means.
 
 It's also set up for an agent-driven grilling workflow with [Matt Pocock's skills](https://github.com/mattpocock/skills): see the `## Agent skills` section of [`AGENTS.md`](./AGENTS.md).
